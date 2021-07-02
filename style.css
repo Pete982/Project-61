@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 20%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+hr {
+    height: 6px;
+    background-color: #42f575;
+    width: 200px;
+    margin: 8px auto;
+}
+
+h1 {
+    text: 2px 3px black;
+}
+
+h2 {
+    text: 2px 3px black;
+}
+
+p {
+    text: 2px 1px black;
+}
+
+h3 {
+    text: 2px 1px black;
+}
+
+.menu {
+    background: linear-gradient(green, yellow, blue);
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    position: fixed top: 0px;
+    right: 370px;
+    z-index: 10;
+    color: white;
+}
+
+link {
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-left: -10px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 16px;
+}
+
+link:hover {
+    background: linear-gradient(green, red, yellow) border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+.section1 {
+    background: cyan;
+}
+
+.section2 {
+    background: linear-gradient(red, orange)
+}
+
+#Favorite {
+    background: linear-gradient(red, yellow, blue)
+}
+#Videos {
+    background: white;
+}
+
+#Inspiration {
+    background: linear-gradient(lightgreen, blue)
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#Articles {
+   background: linear-gradient(green)
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform:scale(0.9);
+    border-color: dodgerblue;
+    border-width: 5px;
+    border-style: dotted;
+}
+
+Contact {
+    background: linear-gradient(lawngreen, cyan, orchid)
+}
